@@ -4,25 +4,40 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+
   <header>
-    <h1>Your Name</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1 class="logo">Fidaan Hussain P</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>hello</p>
-  </section>
+<section id="about" class="about-fullscreen">
+  <div class="about-content-wrapper">
+    <img src="images/you.JPG" alt="Your Photo" class="profile-photo" />
+    <div class="about-text">
+      <h1>About<span class="highlight"> Me</span></h1>
+      <p>
+        I'm a passionate web developer with hands-on experience in front-end development and a solid foundation in Java and SQL for back-end logic. I’m always open to new opportunities and challenges that help me grow.
+      </p>
+      <p>
+        I adapt quickly and enjoy diving into new domains, consistently working toward the success of any project I’m part of. Whether it's learning a new technology or solving a unique problem, I bring dedication, curiosity, and a strong work ethic to the table.
+      </p>
+    </div>
+  </div>
+</section>
+
 
   <section id="skills">
     <h2>Skills</h2>
