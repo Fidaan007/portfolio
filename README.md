@@ -1,2 +1,18 @@
-# portfolio
-portfolio using css and html
+# My Portfolio Website
+
+This is a personal portfolio website created using **HTML** and **CSS**.
+
+It includes the following sections:
+- **About**: Brief introduction
+- **Skills**: Technologies I know
+- **Projects**: Work I’ve done
+- **Contact**: How to reach me
+
+## 🚀 Technologies Used
+
+- HTML5
+- CSS3
+- Git & GitHub
+
+## 📂 Project Structure
+
