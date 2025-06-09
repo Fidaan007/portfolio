@@ -16,3 +16,6 @@ It includes the following sections:
 
 ## 📂 Project Structure
 
+- Index.html
+- Style.css
+- README.md
