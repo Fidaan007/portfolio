@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -23,7 +23,7 @@
     </div>
   </header>
 
-<section id="about" class="about-fullscreen">
+<section id="about" class="about">
   <div class="about-content-wrapper">
     <img src="images/you.JPG" alt="Your Photo" class="profile-photo" />
     <div class="about-text">
@@ -38,23 +38,55 @@
   </div>
 </section>
 
+<section id="skills" class="skills">
+  <div class="skills-container">
+    <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+    <p class="skills-intro">
+      Here are some of the technologies and tools I’m comfortable working with:
+    </p>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Git</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project Title</h3>
-      <p>Description of the project.</p>
+    <div class="skills-list">
+      <div class="skill-entry">
+        <div class="skill-icon">
+          <img src="images/icons/html5.svg" alt="HTML" />
+        </div>
+        <div class="skill-info">
+          <span>HTML</span>
+          <p>Building responsive websites using HTML structure.</p>
+        </div>
+      </div>
+      <div class="skill-entry">
+        <div class="skill-icon">
+          <img src="images/icons/css.svg" alt="CSS" />
+        </div>
+        <div class="skill-info">
+          <span>CSS</span>
+          <p>Creating visually appealing designs with CSS and Flexbox/Grid.</p>
+        </div>
+      </div>
+      <div class="skill-entry">
+        <div class="skill-icon">
+          <img src="images/icons/javascript.svg" alt="JavaScript" />
+        </div>
+        <div class="skill-info">
+          <span>JavaScript</span>
+          <p>Developing interactive and dynamic web applications.</p>
+        </div>
+      </div>
+      <div class="skill-entry">
+        <div class="skill-icon">
+          <img src="images/icons/mysql.svg" alt="SQL" />
+        </div>
+        <div class="skill-info">
+          <span>SQL</span>
+          <p>Managing data and building backends using SQL databases.</p>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
+
+
 
   <section id="contact">
     <h2>Contact</h2>
