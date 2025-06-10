@@ -189,6 +189,9 @@ section {
 }
 
 @media (min-width: 768px) {
+  .about {
+    padding-top: 140px; 
+  }
   .about-content-wrapper {
     flex-direction: row;
     text-align: left;
@@ -470,6 +473,32 @@ section {
   width: 100%;
   height: auto;
 }
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-image {
+    margin-top: 30px;
+  }
+
+  .contact-image img {
+    max-width: 200px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .contact-form button {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+}
+
 
 
 .footer {
