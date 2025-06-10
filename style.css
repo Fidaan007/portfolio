@@ -38,37 +38,72 @@ section {
 }
 
 
-header {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-  background: var(--bg-color);
-}
 
-.container {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  background: var(--bg-color);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
-.nav-links {
-  font-size: 20px;
+
+.logo {
+  font-size: 40px;
+}
+
+.navbar {
   display: flex;
-  list-style: none;
-  gap: 2.0rem;
+  gap: 30px;
+  font-size: 20px;
 }
-.nav-links a {
+
+.navbar a {
   color: var(--text-color);
   text-decoration: none;
-  transition: color 0.3s;
+  font-weight: bold;
 }
-.nav-links a:hover {
-  color: var(--main-color);
+
+.navbar a:hover{
+  background-color: var(--main-color);
+  transform: scale(1.05);
 }
-.menu-toggle {
+
+
+.hamburger {
   display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: var(--text-color);
 }
+
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
 
 
 .about {

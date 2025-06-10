@@ -8,20 +8,19 @@
 </head>
 <body>
 
-  <header>
-    <div class="container">
-      <h1 class="logo">Fidaan Hussain P</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <button class="menu-toggle" id="menuToggle">☰</button>
-      </nav>
-    </div>
-  </header>
+<header class="header">
+  <div class="logo">Fidaan</div>
+  <nav class="navbar" id="navbar">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hamburger" id="hamburger">
+    &#9776;
+  </div>
+</header>
+
 
 <section id="about" class="about">
   <div class="about-content-wrapper">
@@ -151,7 +150,15 @@
   </div>
   <h5 style="color: #f4f1f1;">©2025 Fidaan Hussain P. All Rights Reserved</h5>
 </footer>
-<script src="script.js"></script>
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navbar = document.getElementById('navbar');
+
+  hamburger.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });
+</script>
+
 
 
 </body>
