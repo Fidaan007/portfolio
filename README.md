@@ -8,7 +8,7 @@ It includes the following sections:
 - **Projects**: Work I’ve done
 - **Contact**: How to reach me
 
-## 🚀 Technologies Used
+## 👨‍💻 Technologies Used
 
 - HTML5
 - CSS3
@@ -19,3 +19,6 @@ It includes the following sections:
 - Index.html
 - Style.css
 - README.md
+
+## 🚀 Deployment
+This site is deployed using GitHub Pages.

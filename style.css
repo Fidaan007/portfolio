@@ -20,6 +20,7 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 section {
   padding: 80px 20px;
@@ -71,7 +72,7 @@ header {
 
 
 .about {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background: var(--bg-color);
   display: flex;
@@ -97,7 +98,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: float 6s ease-in-out infinite;
+  animation: float 90s ease-in-out infinite;
 }
 
 .profile-photo {
@@ -178,7 +179,7 @@ header {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
   }
 }
 .skills {
@@ -229,8 +230,8 @@ header {
 }
 
 .skill-card img {
-  width: 50px;
-  height: 50px;
+  width: 90px;
+  height: 90px;
   margin-bottom: 15px;
 }
 
