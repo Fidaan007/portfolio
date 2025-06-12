@@ -18,6 +18,7 @@ It includes the following sections:
 
 - Index.html
 - Style.css
+- script.js
 - README.md
 
 ## 🚀 Deployment
